@@ -11,3 +11,4 @@ test-output
 bin/
 **/*maven-eclipse.xml
 **/*externalToolBuilders
+/core/src/main/resources/runtime-properties/common-shared.properties
