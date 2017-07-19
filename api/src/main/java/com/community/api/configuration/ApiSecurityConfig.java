@@ -42,8 +42,8 @@ public class ApiSecurityConfig extends WebSecurityConfigurerAdapter {
     
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        String password = UUID.randomUUID().toString();
-        String user = "broadleafapi";
+        String password = "123";
+        String user = "shuitian";
         auth.inMemoryAuthentication()
             .withUser(user)
             .password(password)
